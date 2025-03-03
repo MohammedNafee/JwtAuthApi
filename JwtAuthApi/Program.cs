@@ -37,7 +37,7 @@ public class Program
         {
             options.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
             {
-                Description = "Enter 'Bearer <TOKEN>'",
+                Description = "Enter Your Token",
                 Name = "Authorization",
                 In = Microsoft.OpenApi.Models.ParameterLocation.Header,
                 Type = Microsoft.OpenApi.Models.SecuritySchemeType.Http,
